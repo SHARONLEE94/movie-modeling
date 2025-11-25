@@ -42,6 +42,7 @@ DB 모델링 과제 — 영화관 CGB 예약 시스템 설계
 ![img.png](img.png)
 
 **리팩토링 후**
+``` mermaid
 erDiagram
 
     %% =========================
@@ -219,7 +220,7 @@ erDiagram
     CommonCode ||--o{ Reservation : "status"
     CommonCode ||--o{ Payment : "status"
     CommonCode ||--o{ PricePolicy : "day/time"
-
+```
 
 
 ### 1) ERD 구조 변화 요약표
